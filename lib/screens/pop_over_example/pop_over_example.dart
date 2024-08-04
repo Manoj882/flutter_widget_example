@@ -29,15 +29,15 @@ class PopOverWidgetExample extends StatelessWidget {
                     onPressed: () => showPopover(
                       context: context,
                       bodyBuilder: (context) => MenuItems(
-                        onViewPressed: (){
+                        onItem1Pressed: (){
                           Navigator.of(context).pop();
                           debugPrint('I am ( Menu Item 1) pressed: $index');
                         },
-                        onEnablePressed: (){
+                        onItem2Pressed: (){
                           Navigator.of(context).pop();
                           debugPrint('I am ( Menu Item 2) pressed: $index');
                         },
-                        onFillKYCPressed: (){
+                        onItem3Pressed: (){
                           Navigator.of(context).pop();
                           debugPrint('I am ( Menu Item 3) pressed: $index');
                         },
@@ -65,14 +65,14 @@ class PopOverWidgetExample extends StatelessWidget {
 
 class MenuItems extends StatelessWidget {
   const MenuItems({
-    required this.onViewPressed,
-    required this.onEnablePressed,
-    required this.onFillKYCPressed,
+    required this.onItem1Pressed,
+    required this.onItem2Pressed,
+    required this.onItem3Pressed,
     super.key});
 
-  final void Function()? onViewPressed;
-  final void Function()? onEnablePressed;
-  final void Function()? onFillKYCPressed;
+  final void Function()? onItem1Pressed;
+  final void Function()? onItem2Pressed;
+  final void Function()? onItem3Pressed;
 
   @override
   Widget build(BuildContext context) {
@@ -81,9 +81,9 @@ class MenuItems extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 5,),
         child: Column(
           children: [
-            MenuItemContainer(labelText: 'Menu Item 1', onTap: onViewPressed,),
-            MenuItemContainer(labelText: 'Menu Item 2', onTap: onEnablePressed,),
-            MenuItemContainer(labelText: 'Menu Item 3', onTap: onFillKYCPressed,),
+            MenuItemContainer(labelText: 'Menu Item 1', onTap: onItem1Pressed,),
+            MenuItemContainer(labelText: 'Menu Item 2', onTap: onItem2Pressed,),
+            MenuItemContainer(labelText: 'Menu Item 3', onTap: onItem3Pressed,),
         
           ],
         ),
@@ -107,7 +107,7 @@ class MenuItemContainer extends StatelessWidget {
       onTap: onTap,
       child: Container(
         width: double.maxFinite,
-        padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 16),
+        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
         color: Colors.white,
         child: Text(labelText),
       ),
