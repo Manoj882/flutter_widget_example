@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widget_example/screens/draggable_example/draggable_example.dart';
 import 'package:flutter_widget_example/screens/pop_over_example/pop_over_example.dart';
+import 'package:flutter_widget_example/screens/scrollable_example/scrollable_example.dart';
+import 'package:flutter_widget_example/screens/website_view_example/website_view_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +20,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PopOverWidgetExample(),
+      // home: const PopOverWidgetExample(),
+      //  home: DraggableExample(),
+      // home: ScrollableExample(),
+      home: const WebsiteViewExample(),
+  
     );
   }
 }
