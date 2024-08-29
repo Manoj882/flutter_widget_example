@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   popover: ^0.3.0+1
   flutter_inappwebview: ^6.0.0
+  flutter_widget_from_html_core: ^0.15.2
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   flutter_test:

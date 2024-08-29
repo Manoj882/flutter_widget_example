@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_example/screens/draggable_example/draggable_example.dart';
+import 'package:flutter_widget_example/screens/flutter_html_example/flutter_html_example.dart';
+import 'package:flutter_widget_example/screens/gif_image_example/gif_image_example.dart';
 import 'package:flutter_widget_example/screens/pop_over_example/pop_over_example.dart';
 import 'package:flutter_widget_example/screens/scrollable_example/scrollable_example.dart';
 import 'package:flutter_widget_example/screens/website_view_example/website_view_example.dart';
@@ -23,7 +25,9 @@ class MyApp extends StatelessWidget {
       // home: const PopOverWidgetExample(),
       //  home: DraggableExample(),
       // home: ScrollableExample(),
-      home: const WebsiteViewExample(),
+      // home: const WebsiteViewExample(),
+      // home:  FlutterHtmlExample(),
+      home: GifImageExample(),
   
     );
   }
