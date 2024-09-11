@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_example/screens/campaign/campaign_detail.dart';
 import 'package:flutter_widget_example/screens/draggable_example/draggable_example.dart';
 import 'package:flutter_widget_example/screens/flutter_html_example/flutter_html_example.dart';
 import 'package:flutter_widget_example/screens/gif_image_example/gif_image_example.dart';
@@ -9,6 +8,8 @@ import 'package:flutter_widget_example/screens/pop_over_example/pop_over_example
 import 'package:flutter_widget_example/screens/scrollable_example/scrollable_example.dart';
 import 'package:flutter_widget_example/screens/website_view_example/website_view_example.dart';
 import 'package:flutter_widget_example/screens/wrap_example/wrap_example.dart';
+
+import 'screens/confettie_example/confettie_example.dart';
 
 void main() {
   //debugInvertOversizedImages = true;
@@ -39,7 +40,8 @@ class MyApp extends StatelessWidget {
       // home: const ImageExample(),
 
       // home: const NetworkImageExample(),
-      home: const WrapExample(),
+      // home: const WrapExample(),
+      home: const ConfettieExample(),
   
 
     );
