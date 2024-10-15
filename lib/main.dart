@@ -10,6 +10,7 @@ import 'package:flutter_widget_example/screens/website_view_example/website_view
 import 'package:flutter_widget_example/screens/wrap_example/wrap_example.dart';
 
 import 'screens/confettie_example/confettie_example.dart';
+import 'screens/lottie_animation_example/lottie_animation_example.dart';
 
 void main() {
   //debugInvertOversizedImages = true;
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
 
       // home: const NetworkImageExample(),
       // home: const WrapExample(),
-      home: const ConfettieExample(),
+      // home: const ConfettieExample(),
+      home: const LottieAnimationExample(),
   
 
     );
