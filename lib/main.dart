@@ -4,10 +4,12 @@ import 'package:flutter_widget_example/screens/flutter_html_example/flutter_html
 import 'package:flutter_widget_example/screens/gif_image_example/gif_image_example.dart';
 import 'package:flutter_widget_example/screens/image_optimization/image_example.dart';
 import 'package:flutter_widget_example/screens/image_optimization/network_image_example.dart';
+import 'package:flutter_widget_example/screens/pinput_example/pinput_example.dart';
 import 'package:flutter_widget_example/screens/pop_over_example/pop_over_example.dart';
 import 'package:flutter_widget_example/screens/scrollable_example/scrollable_example.dart';
 import 'package:flutter_widget_example/screens/website_view_example/website_view_example.dart';
 import 'package:flutter_widget_example/screens/wrap_example/wrap_example.dart';
+import 'package:flutter_widget_example/screens/wrap_example/wrap_exmaple1.dart';
 
 import 'screens/confettie_example/confettie_example.dart';
 import 'screens/lottie_animation_example/lottie_animation_example.dart';
@@ -43,7 +45,11 @@ class MyApp extends StatelessWidget {
       // home: const NetworkImageExample(),
       // home: const WrapExample(),
       // home: const ConfettieExample(),
-      home: const LottieAnimationExample(),
+      // home: const LottieAnimationExample(),
+
+      //home:  PinputExample(),
+      home: const WrapExample1(),
+    
   
 
     );
