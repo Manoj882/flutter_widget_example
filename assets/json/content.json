@@ -1,0 +1,73 @@
+{
+    "lessionText": "The bright sun rose over the serene countryside, casting a warm golden glow on the lush green fields. A gentle cool breeze swayed the tall trees, while colorful chirping birds added life to the peaceful morning.\n\n The soft hum of bees and the pleasant scent of blooming flowers filled the fresh air, making the start of the day feel truly magical.",
+    "word": [
+        {
+            "pos": 1,
+            "type": "adj"
+        },
+        {
+            "pos": 6,
+            "type": "adj"
+        },
+        {
+            "pos": 10,
+            "type": "adj"
+        },
+        {
+            "pos": 11,
+            "type": "adj"
+        },
+        {
+            "pos": 15,
+            "type": "adj"
+        },
+        {
+            "pos": 16,
+            "type": "adj"
+        },
+        {
+            "pos": 19,
+            "type": "adj"
+        },
+        {
+            "pos": 20,
+            "type": "adj"
+        },
+        {
+            "pos": 24,
+            "type": "adj"
+        },
+        {
+            "pos": 27,
+            "type": "adj"
+        },
+        {
+            "pos": 28,
+            "type": "adj"
+        },
+        {
+            "pos": 29,
+            "type": "adj"
+        },
+        {
+            "pos": 34,
+            "type": "adj"
+        },
+        {
+            "pos": 37,
+            "type": "adj"
+        },
+        {
+            "pos": 43,
+            "type": "adj"
+        },
+        {
+            "pos": 50,
+            "type": "adj"
+        },
+        {
+            "pos": 60,
+            "type": "adj"
+        }
+    ]
+}
