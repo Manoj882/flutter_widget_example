@@ -1,73 +1,534 @@
 {
-    "lessionText": "The bright sun rose over the serene countryside, casting a warm golden glow on the lush green fields. A gentle cool breeze swayed the tall trees, while colorful chirping birds added life to the peaceful morning.\n\n The soft hum of bees and the pleasant scent of blooming flowers filled the fresh air, making the start of the day feel truly magical.",
+    
+    "lessionText": "Bronze le muet avait l'oreille fine. Bien qu'il se trouvât à l'intérieur de la maison, il entendit distinctement tout ce que les haut-parleurs transmirent. Le soir venu, il sortit avant d'avoir terminé son repas et emmena le buffle avec lui. \nSon père lui demanda: «Où vas-tu avec le buffle à cette heure-ci?» \nBronze ne se retourna pas. \nAux yeux des villageois, Bronze était un muet extrêmement intelligent, mais aussi un garçon au comportement très étrange. Comme tous les autres enfants, il avait ses joies et ses peines, ses colères et ses plaisirs, mais la façon dont il les exprimait était fort différente de celle des autres enfants. Quelques années auparavant, quand quelque chose le rendait triste, il partait souvent seul, au plus profond de la roselière, et l'on avait beau l'appeler, il n'en sortait pas. La fois où il y resta le plus longtemps, cela dura trois jours. À cette époque-là, il était aussi maigre qu'un singe. Sa grand-mère pleura à n'en plus pou- voir. Lorsqu'il était heureux, il pouvait grimper au sommet du moulin à vent et, la tête tournée vers le ciel, rire à gorge déployée. Avant l'âge de dix ans, si quelque chose le rendait gai, il pouvait se déshabiller et, nu comme un ver, se mettre à courir partout. Les villageois se rappelaient encore l'hiver de ses neuf ans: on ne savait ce qui l'avait excité (d'une manière générale les villageois comprenaient difficilement ce qui pouvait l'exciter ou le rendre heureux), il avait retiré tous ses vêtements, sauf son caleçon, et était sorti. Il y avait au moins déjà trente centimètres de neige sur le sol, et il continuait à neiger. Presque tous les villageois sortirent pour le regarder. Voyant autant de monde autour de lui, il se mit à courir de plus belle. Son père, sa mère et sa grand-mère ne cessaient de l'appeler tout en le poursuivant, mais il ne les écoutait pas. Au bout d'un moment, il retira son caleçon, le jeta dans la neige et s'éloigna, toujours en courant. Les flocons de neige voltigeaient et Bronze ressemblait à un jeune poulain. Quelques grands gaillards le coursèrent et l'attrapèrent non sans mal. Alors que sa mère le rhabillait, tout en pleurant, il continuait à lutter en tentant de s'échapper. \n\nCao WENXUAN, Bronze et Tournesol, traduit du chinois par Brigitte Guilbaud",
     "word": [
         {
-            "pos": 1,
+            "pos": 4,
+            "value": "oreille",
+            "type": "noun",
+            "isAfter": true
+        },
+        {
+            "pos": 5,
+            "value": "fine",
             "type": "adj"
         },
         {
-            "pos": 6,
+            "pos": 32,
+            "value": "son",
             "type": "adj"
         },
         {
-            "pos": 10,
+            "pos": 33,
+            "value": "repas",
+            "type": "noun"
+        },
+        {
+            "pos": 40,
+            "value": "Son",
             "type": "adj"
         },
         {
-            "pos": 11,
-            "type": "adj"
+            "pos": 41,
+            "value": "père",
+            "type": "noun"
         },
-        {
-            "pos": 15,
-            "type": "adj"
-        },
-        {
-            "pos": 16,
-            "type": "adj"
-        },
-        {
-            "pos": 19,
-            "type": "adj"
-        },
-        {
-            "pos": 20,
-            "type": "adj"
-        },
-        {
-            "pos": 24,
-            "type": "adj"
-        },
-        {
-            "pos": 27,
-            "type": "adj"
-        },
-        {
-            "pos": 28,
-            "type": "adj"
-        },
-        {
-            "pos": 29,
-            "type": "adj"
-        },
-        {
-            "pos": 34,
-            "type": "adj"
-        },
-        {
-            "pos": 37,
-            "type": "adj"
-        },
-        {
-            "pos": 43,
-            "type": "adj"
-        },
+        
         {
             "pos": 50,
+            "value": "cette",
             "type": "adj"
         },
         {
-            "pos": 60,
+            "pos": 51,
+            "value": "heure",
+            "type": "noun"
+        },
+        {
+            "pos": 64,
+            "value": "muet",
+            "type": "noun"
+        },
+        {
+            "pos": 66,
+            "value": "intelligent",
             "type": "adj"
+        },
+        {
+            "pos": 72,
+            "value": "comportement",
+            "type": "noun"
+        },
+        {
+            "pos": 74,
+            "value": "étrange",
+            "type": "adj"
+        },
+        {
+            "pos": 76,
+            "value": "tous",
+            "type": "adj"
+        },
+        {
+            "pos": 78,
+            "value": "autres",
+            "type": "adj"
+        },
+        {
+            "pos": 79,
+            "value": "enfants",
+            "type": "noun"
+        },
+        {
+            "pos": 82,
+            "value": "ses",
+            "type": "adj"
+        },
+        {
+            "pos": 83,
+            "value": "joies",
+            "type": "noun"
+        },
+        {
+            "pos": 85,
+            "value": "ses",
+            "type": "adj"
+        },
+        {
+            "pos": 86,
+            "value": "peines",
+            "type": "noun"
+        },
+        {
+            "pos": 87,
+            "value": "ses",
+            "type": "adj"
+        },
+        {
+            "pos": 88,
+            "value": "colères",
+            "type": "noun"
+        },
+        {
+            "pos": 90,
+            "value": "ses",
+            "type": "adj"
+        },
+        {
+            "pos": 91,
+            "value": "plaisirs",
+            "type": "noun"
+        },
+        {
+            "pos": 94,
+            "value": "façon",
+            "type": "noun"
+        },
+        {
+            "pos": 95,
+            "value": "dont",
+            "type": "adj"
+        },
+        {
+            "pos": 99,
+            "value": "était",
+            "type": "adj"
+        },
+        {
+            "pos": 101,
+            "value": "différente",
+            "type": "adj"
+        },
+        {
+            "pos": 105,
+            "value": "autres",
+            "type": "adj"
+        },
+        {
+            "pos": 106,
+            "value": "enfants",
+            "type": "noun"
+        },
+        {
+            "pos": 107,
+            "value": "Quelques",
+            "type": "adj"
+        },
+        {
+            "pos": 108,
+            "value": "années",
+            "type": "noun"
+        },
+        {
+            "pos": 111,
+            "value": "quelque",
+            "type": "noun"
+        },
+        {
+            "pos": 112,
+            "value": "chose",
+            "type": "noun"
+        },
+        {
+            "pos": 114,
+            "value": "rendait",
+            "type": "adj"
+        },
+        {
+            "pos": 115,
+            "value": "triste",
+            "type": "adj"
+        },
+        {
+            "pos": 116,
+            "value": "il",
+            "type": "adj"
+        },
+        {
+            "pos": 119,
+            "value": "seul",
+            "type": "adj"
+        },
+        {
+            "pos": 146,
+            "value": "trois",
+            "type": "adj"
+        },
+        {
+            "pos": 147,
+            "value": "jours",
+            "type": "noun"
+        },
+        {
+            "pos": 149,
+            "value": "cette",
+            "type": "adj"
+        },
+        {
+            "pos": 150,
+            "value": "époque",
+            "type": "noun"
+        },
+        {
+            "pos": 151,
+            "value": "il",
+            "type": "adj"
+        },
+        {
+            "pos": 152,
+            "value": "était",
+            "type": "adj"
+        },
+        {
+            "pos": 154,
+            "value": "maigre",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 157,
+            "value": "Sa",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 158,
+            "value": "grand-mère",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 165,
+            "value": "il",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 166,
+            "value": "était",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 167,
+            "value": "heureux",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 178,
+            "value": "tête",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 179,
+            "value": "tournée",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 186,
+            "value": "gorge",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 187,
+            "value": "déployée",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 191,
+            "value": "dix",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 192,
+            "value": "ans",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 194,
+            "value": "quelque",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 195,
+            "value": "chose",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 197,
+            "value": "rendait",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 198,
+            "value": "gai",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 204,
+            "value": "nu",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 207,
+            "value": "ver",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 220,
+            "value": "ses",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 221,
+            "value": "neuf",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 222,
+            "value": "ans",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 231,
+            "value": "manière",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 232,
+            "value": "générale",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 237,
+            "value": "ce",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 238,
+            "value": "qui",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 243,
+            "value": "rendre",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 244,
+            "value": "heureux",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 248,
+            "value": "tous",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 249,
+            "value": "ses",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 250,
+            "value": "vêtements",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 252,
+            "value": "son",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 253,
+            "value": "caleçon",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 263,
+            "value": "trente",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 264,
+            "value": "centimètres",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 276,
+            "value": "tous",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 278,
+            "value": "villageois",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 298,
+            "value": "Son",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 299,
+            "value": "père",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 300,
+            "value": "sa",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 301,
+            "value": "mère",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 303,
+            "value": "sa",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 304,
+            "value": "grand-mère",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 325,
+            "value": "son",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 326,
+            "value": "caleçon",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 347,
+            "value": "jeune",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 348,
+            "value": "poulain",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 349,
+            "value": "Quelques",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 350,
+            "value": "grands",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 351,
+            "value": "gaillards",
+            "type": "noun"
+            
+        },
+        {
+            "pos": 361,
+            "value": "sa",
+            "type": "adj"
+            
+        },
+        {
+            "pos": 362,
+            "value": "mère",
+            "type": "noun"
+            
         }
+        
+       
+       
+      
+        
     ]
 }

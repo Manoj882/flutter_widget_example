@@ -25,6 +25,8 @@ List<int> adjHightLightWords = [];
   @override
   void initState() {
     super.initState();
+    flutterTTSSetup();
+    
 
     // Initialize adjective words and split text
     adjWords = lessonModel?.words ?? [];
@@ -35,13 +37,15 @@ List<int> adjHightLightWords = [];
 
        _flutterTts.setProgressHandler((text, start, end, spokenWord) {
         bool isAdjective = false;
+
+        print('spoken word: $spokenWord');
       
         setState(() {
           isAdjective = adjWords.any((w) {
             // print('hey word: ${words[w.pos]}');
             // print('hey spoken word: $spokenWord');
             // print("*************");
-            if (words[w.pos] == spokenWord) {
+            if (words[w.pos].replaceAll(RegExp(r'\.$'), '') == spokenWord) {
               print(
                   'word1: ${words[w.pos]} >>>>> $spokenWord >>> index: ${w.pos}');
                   adjHightLightWords.add(w.pos);
@@ -60,6 +64,16 @@ List<int> adjHightLightWords = [];
 void dispose(){
   super.dispose();
 }
+
+    flutterTTSSetup() async {
+    await _flutterTts.setLanguage("fr-FR");
+    await _flutterTts.setSpeechRate(0.45);
+    await _flutterTts.setVolume(1.0);
+    await _flutterTts.setPitch(1.0);
+    await _flutterTts.setVoice({"name": "Thomas", "locale": "fr-FR"});
+
+    }
+
   
 
   // Function to style the text dynamically
@@ -94,7 +108,7 @@ void dispose(){
 
   @override
   Widget build(BuildContext context) {
-    print('hello adj words: $adjHightLightWords');
+   // print('hello adj words: $adjHightLightWords');
    
     return Scaffold(
       appBar: AppBar(
@@ -162,24 +176,37 @@ class Lesson {
 
 class Word {
   final int pos;
+  final String? value;
   final String type;
+  final bool? isAfter;
+  final bool? isBefore;
 
   Word({
     required this.pos,
+    required this.value,
     required this.type,
-  });
+    this.isAfter = false,
+    this.isBefore = false,
+  }); 
 
   factory Word.fromJson(Map<String, dynamic> json) {
     return Word(
       pos: json['pos'] as int,
+      value: json['value'] as String,
       type: json['type'] as String,
+      isAfter: json['isAfter'] as bool? ?? false,
+      isBefore: json['isBefore'] as bool? ?? false,
     );
   }
 
   Map<String, dynamic> toJson() {
     return {
       'pos': pos,
+      'value': value,
       'type': type,
+      'isAfter': type,
+      'isBefore': isBefore,
+      
     };
   }
 }
