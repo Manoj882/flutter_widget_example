@@ -2,7 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_widget_example/screens/dispose_example/dispose_example.dart';
 import 'package:flutter_widget_example/screens/draggable_example/draggable_example.dart';
+import 'package:flutter_widget_example/screens/draggable_example/draggable_example1.dart';
+import 'package:flutter_widget_example/screens/draggable_example/draggable_index_range_example.dart';
 import 'package:flutter_widget_example/screens/flutter_html_example/flutter_html_example.dart';
 import 'package:flutter_widget_example/screens/gif_image_example/gif_image_example.dart';
 import 'package:flutter_widget_example/screens/image_optimization/image_example.dart';
@@ -65,8 +68,13 @@ class MyApp extends StatelessWidget {
       // home: const WrapExample1(),
       //home: TTSEXample1(),
       // home: TTSExample2(),
-       home: TTSExample3(),
+       //home: TTSExample3(),
          //home: TTSExample4(),
+
+     // home: DragAndDropPage(),   
+     // home: DragAndDropTable(),
+     // home: DragAndDropIndexRangeExample(),
+     home: DisposeExample(),
     
   
 
